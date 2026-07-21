@@ -1,0 +1,1 @@
+print('DARTRIX Core Edge Logic')
