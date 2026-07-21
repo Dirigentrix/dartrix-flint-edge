@@ -1,0 +1,23 @@
+# DARTRIX FLINT EDGE v0.9 RC
+# Python 3.10+
+
+# ── CORE (stdlib — brak instalacji) ──────────────────────────
+# datetime, math, statistics, hashlib, secrets, json, os, sys
+# collections, dataclasses, enum, typing, argparse, uuid
+
+# ── WEB DASHBOARD (opcjonalne) ────────────────────────────────
+fastapi>=0.100.0
+uvicorn[standard]>=0.23.0
+pydantic>=2.0.0
+
+# ── DATA SCIENCE (opcjonalne) ─────────────────────────────────
+numpy>=1.24.0
+
+# ── TESTING ───────────────────────────────────────────────────
+# pytest>=7.0.0
+# pytest-asyncio>=0.21.0
+# httpx>=0.24.0
+
+# ── INSTALACJA MINIMALNA ──────────────────────────────────────
+# Bez FastAPI: python src/app.py  (tylko stdlib)
+# Z FastAPI:   pip install fastapi uvicorn
